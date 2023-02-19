@@ -18,7 +18,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # Intro
 
 
-
 Many **phenomena** are described by Euler's identity  [](#euler).
 
 It's used in the wave equation[^myref].
@@ -48,6 +47,12 @@ $$e^{ix}=\cos(x)+i\sin(x) $$  (euler)
 A  water wave
 :::
 
+<!-- TODO: maybe delete this for mini example. -->
+:::{figure} #manim-complex
+:name: fig-altair-horsepower
+
+Complex number made with [](manim_notebook.ipynb)
+:::
 
 ```{code-block} python
 :name: my-program
@@ -76,6 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * - 6.28
   - 360
 :::
+
 
 
 
