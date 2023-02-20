@@ -13,8 +13,12 @@ keywords: myst, markdown, open-science
 numbering:
   code: true 
   # TODO: code: true might be default in future
+
+exports:
+  - format: pdf
+    template: arxiv_two_column
 ---
----
+
 +++ {"part": "abstract"}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa tincidunt dui ut ornare lectus sit amet est placerat.
@@ -42,21 +46,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 $$e^{ix}=\cos(x)+i\sin(x) $$  (euler)
 
 
+<!-- Hidden info: image from https://www.pexels.com/de-de/foto/wassertropfen-40784/ -->
 
-
-:::{figure} wave_cc0.jpg
+:::{figure} wave.jpg
 :name: my-fig
 :alt: A drop of water.
 
 A  water wave
 :::
 
-<!-- TODO: maybe delete this for mini example. -->
-:::{figure} #manim-complex
-:name: fig-altair-horsepower
-
-Complex number made with [](manim_notebook.ipynb)
-:::
 
 ```{code-block} python
 :name: my-program
@@ -89,8 +87,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-:::{note}
+<!-- :::{note}
 :class: dropdown
 Lorem ipsum dolor sit amet 
-:::
+::: -->
+
+
+ <!-- For pdf export, run `myst build 01-hello.md` -->
 
