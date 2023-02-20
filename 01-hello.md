@@ -1,8 +1,8 @@
 ---
 title: Euler's identity
 subject: Math
-subtitle: Its math and beauty.
-short_title: Euler Identity
+subtitle: Lorem ipsum dolor sit.
+short_title: Euler
 authors:
   - name: John Doe
     affiliations:
@@ -24,29 +24,18 @@ exports:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa tincidunt dui ut ornare lectus sit amet est placerat.
 +++
 # Intro
-
-
-Many **phenomena** are described by Euler's identity  [](#euler).
-
-It's used in the wave equation[^myref].
+Many **phenomena** are described by Euler's identity  [](#euler).  
+It's used in the wave equation[^myref].  
+More in [](#my-fig), [](#my-program) and [](#example-table).  
+Also see  [Wikipedia](https://en.wikipedia.org/wiki/Euler%27s_identity).  
+And a paper here [](doi:10.4230/DAGMAN.1.1.41).  
 
 [^myref]: Very useful!
-
-More in [](#my-fig), [](#my-program) and [](#example-table).
-
-Also see  [Wikipedia](https://en.wikipedia.org/wiki/Euler%27s_identity).
-
-And a paper here [](doi:10.4230/DAGMAN.1.1.41).
-
 # Example 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-
 $$e^{ix}=\cos(x)+i\sin(x) $$  (euler)
-
-
-<!-- Hidden info: image from https://www.pexels.com/de-de/foto/wassertropfen-40784/ -->
 
 :::{figure} wave.jpg
 :name: my-fig
@@ -54,7 +43,6 @@ $$e^{ix}=\cos(x)+i\sin(x) $$  (euler)
 
 A  water wave
 :::
-
 
 ```{code-block} python
 :name: my-program
@@ -66,11 +54,6 @@ c = a + b*1j
 print(np.real(c))
 print(np.imag(c))
 ```
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-
 
 :::{list-table} Translate from radian to degree
 :header-rows: 1
@@ -84,14 +67,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   - 360
 :::
 
-
-
-
-<!-- :::{note}
+:::{note}
 :class: dropdown
 Lorem ipsum dolor sit amet 
-::: -->
-
+:::
 
  <!-- For pdf export, run `myst build 01-hello.md` -->
-
