@@ -24,7 +24,7 @@ exports:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa tincidunt dui ut ornare lectus sit amet est placerat.
 +++
 # Intro
-Many **phenomena** are described by Euler's identity  [](#euler).  
+Many **phenomena** are described by Euler's identity  [](#my-eq).  
 It's used in the wave equation[^myref].  
 More in [](#my-fig), [](#my-program) and [](#example-table).  
 Also see  [Wikipedia](https://en.wikipedia.org/wiki/Euler%27s_identity).  
@@ -35,10 +35,11 @@ And a paper here [](doi:10.4230/DAGMAN.1.1.41).
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-$$e^{ix}=\cos(x)+i\sin(x) $$  (euler)
+$$e^{ix}=\cos(x)+i\sin(x) $$  (my-eq)
 
 :::{figure} wave.jpg
 :name: my-fig
+:width: 300px
 :alt: A drop of water.
 
 A  water wave
@@ -47,7 +48,6 @@ A  water wave
 ```{code-block} python
 :name: my-program
 :caption: Calculation with numpy.
-
 import numpy as np
 
 c = a + b*1j
