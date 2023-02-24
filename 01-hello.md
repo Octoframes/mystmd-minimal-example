@@ -10,9 +10,6 @@ authors:
     email: name@surname.com
 license: CC-BY-4.0
 keywords: myst, markdown, open-science
-numbering:
-  code: true 
-  # TODO: code: true might be default in future
 
 exports:
   - format: pdf
