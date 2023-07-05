@@ -1,5 +1,2 @@
 # Minimal example.
 
-
-
-
