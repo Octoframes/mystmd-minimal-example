@@ -1,4 +1,4 @@
-# See docs at: https://myst.tools/docs/mystjs/frontmatter
+# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   title: Minimal Example
@@ -15,7 +15,4 @@ site:
   #   - slug: myst
   #     path: .
   nav: []
-  actions:
-    - title: Learn More
-      url: https://myst.tools/docs/mystjs
   domains: []
